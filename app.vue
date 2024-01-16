@@ -1,5 +1,27 @@
-<script setup lang="ts">
-const searchValue = ref('');
+<script setup>
+import { createClient } from '@supabase/supabase-js';
+import { useSearchValueStore } from '~/store/searchValue';
+import {useSupabaseStore} from '~/store/supabase'
+
+const { searchValue } = storeToRefs(useSearchValueStore());
+const {supabase} = storeToRefs(useSupabaseStore())
+
+const config = useRuntimeConfig();
+const router = useRouter();
+
+watch(
+  () => searchValue.value,
+  () => {
+    router.push({
+      path: '/results',
+      query: { search: encodeURIComponent(searchValue.value) },
+    });
+  }
+);
+
+onMounted(() => {
+  supabase.value = createClient(config.public.url, config.public.public_key);
+})
 </script>
 
 <template>
@@ -7,11 +29,30 @@ const searchValue = ref('');
   <div class="header-fixed">
     <div class="wrapper">
       <TopBar v-model:search-value="searchValue" />
-      KAELIS
+      <NuxtPage></NuxtPage>
     </div>
   </div>
 </template>
 
+<style scoped>
+body {
+  margin: auto;
+  font-weight: 300;
+  background: white;
+  line-height: 200%;
+}
+.header-fixed {
+  margin: auto;
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: inherit;
+}
+</style>
 <style>
 .show-bigger-than-lg-flex {
   display: none;
@@ -103,6 +144,4 @@ const searchValue = ref('');
     display: flex;
   }
 }
-
-
 </style>

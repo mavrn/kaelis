@@ -1,0 +1,31 @@
+﻿name;rating;cookingTime;difficulty;rarity;type;username;picture
+French Omlette;60;10;3;classic;breakfast;jan;https://images.themodernproper.com/billowy-turkey/production/posts/2022/French-Omellete-11.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1647879264&s=03d53a2a81f1738b99318dc523518157
+Aglio e Olio;70;25;2;classic;main dish;jan;https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sipandfeast.com%2Flinguine-aglio-e-olio%2F&psig=AOvVaw2YInt98hMeev9OUwA6YJQf&ust=1705527940171000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjDqujw4oMDFQAAAAAdAAAAABAD
+Cacio e Pepe;75;20;4;classic;main dish;jan;https://assets.bonappetit.com/photos/57afff371b33404414976059/1:1/w_2560%2Cc_limit/cacio-e-pepe.jpg
+Burger;91;30;2;classic;main dish;jan;https://ich-liebe-kaese.de/fileadmin/_processed_/b/3/rezept-pulled-chicken-cheese-burger_599718cf40_csm.jpg
+Pizza;95;90;3;classic;main dish;jan;https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg
+Ceasar Salad;74;15;1;classic;side dish;jan;https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg
+Chicken Parmesan;80;30;2;classic;main dish;jan;https://tastesbetterfromscratch.com/wp-content/uploads/2023/03/Chicken-Parmesan-1.jpg
+Fish&Chips;78;40;2;common;main dish;jan;https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/800px-Fish_and_chips_blackpool.jpg
+BLT Sandwich;51;20;1;common;lunch;jan;https://ohsweetbasil.com/wp-content/uploads/How-to-make-the-best-BLT-recipe-4-scaled.jpg
+Fettuchine Alfredo;59;30;1;common;main dish;jan;https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg
+Chicken Ceasar Wrap;70;30;2;common;lunch;jan;https://www.twopeasandtheirpod.com/wp-content/uploads/2023/08/Chicken-Caesar-Wraps-14.jpg
+Pesto Pasta;40;30;1;common;main dish;jan;https://www.chelseasmessyapron.com/wp-content/uploads/2023/04/Pesto-Pasta-1.jpeg
+Chicken Wings;85;35;2;uncommon;main dish;jan;https://tastesbetterfromscratch.com/wp-content/uploads/2021/04/Air-Fryer-Wings-8.jpg
+Chicken Noodle Soup;90;60;2;uncommon;main dish;jan;"https://hips.hearstapps.com/hmg-prod/images/chicken-noodle-soup-index-644c2bec1ce0c.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*"
+Chicken Quesadilla;75;20;1;uncommon;main dish;jan;"https://hips.hearstapps.com/hmg-prod/images/chicken-quesadilla-index-64515c8e98e28.jpg?crop=1xw:0.9994669509594882xh;center,top&resize=1200:*"
+Quinoa Salad;30;10;1;uncommon;side dish;jan;https://cdn.loveandlemons.com/wp-content/uploads/2020/08/quinoa-salad.jpg
+Penne Vodka;95;50;2;rare;main dish;jan;https://natashaskitchen.com/wp-content/uploads/2023/02/Penne-alla-Vodka-SQ.jpg
+Tomato Sauce;90;30;2;rare;main dish;jan;https://www.giallozafferano.com/images/228-22832/spaghetti-with-tomato-sauce_1200x800.jpg
+Butter Chicken;80;50;2;rare;main dish;jan;https://40aprons.com/wp-content/uploads/2016/01/butter-chicken-5-1.jpg
+Naan;69;60;3;rare;side dish;jan;https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/butter-naan.jpg
+Risotto;50;30;4;rare;main dish;jan;"https://hips.hearstapps.com/hmg-prod/images/del089923-risotto-web-001-ab-index-64e7a1083b54e.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*"
+Chicken Tikka Masala;80;40;3;epic;main dish;jan;https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-masala.jpg
+Bolognese;90;80;2;epic;main dish;jan;https://assets.bonappetit.com/photos/5c2f8fe26558e92c8a622671/1:1/w_2700,h_2700,c_limit/bolognese-1.jpg
+Carbonara;79;30;4;epic;main dish;jan;https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&resize=440,400
+Spaghetti with Meatballs;87;80;3;epic;main dish;jan;https://hips.hearstapps.com/delish/assets/17/39/1506456062-delish-spaghetti-meatballs.jpg
+Truffle Risotto;60;35;4;epic;main dish;jan;https://www.lakeshorelady.com/wp-content/uploads/2021/02/mushroom-risotto-8.jpg
+Beef Wellington;99;90;5;legendary;main dish;jan;https://www.foodandwine.com/thmb/2k2Kq24_fMvHCyLMPRSNrpg5QdE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beef-wellington-FT-RECIPE0321-c9a63fccde3b45889ad78fdad078153f.jpg
+Filet Mignon;96;45;3;legendary;main dish;jan;https://www.grillkameraden.de/wp-content/uploads/2022/11/Filet-Mignon.jpeg
+Sushi Rolls;89;60;5;legendary;main dish;jan;https://www.justonecookbook.com/wp-content/uploads/2020/01/Sushi-Rolls-Maki-Sushi-%E2%80%93-Hosomaki-1106-II.jpg
+Ratatouille;83;80;3;legendary;main dish;jan;https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg
