@@ -4,7 +4,6 @@ import { COLORS } from '~/constants/colors';
 const props = defineProps({
   dish: Object,
 });
-
 function ratingToStars(rating) {
   if (rating < 0 || rating > 100) {
     return 'Invalid rating';
@@ -13,25 +12,15 @@ function ratingToStars(rating) {
   const starsString = stars.toFixed(1).replace('.', '');
   return starsString;
 }
-const starLink = ref();
-const difficultyLink = ref();
-
-onMounted(() => {
-  starLink.value = new URL(
-    '../assets/' + ratingToStars(props.dish.rating) + 'stars.png',
-    import.meta.url
-  ).href;
-  difficultyLink.value = new URL(
-    '../assets/diff-' + props.dish.difficulty + '-placeholder.png',
-    import.meta.url
-  ).href;
-});
 </script>
 
 <template>
   <div class="wrapper" :style="{ 'border-color': COLORS[dish.rarity] }">
     <div class="container w-full h-full flex-col flex items-center">
-      <div class="rarity text-3xl w-full py-3" :style="{ 'background-color': COLORS[dish.rarity] }">
+      <div
+        class="rarity text-3xl w-full py-3"
+        :style="{ 'background-color': COLORS[dish.rarity] }"
+      >
         {{ dish.rarity.toUpperCase() }}
       </div>
       <img class="picture" :src="dish.picture" />
@@ -41,8 +30,14 @@ onMounted(() => {
           <img class="w-14 h-14" src="~/assets/time.png" />
           <span class="time-span">{{ dish.cookingTime }}</span>
         </div>
-        <img class="w-28 h-8" :src="starLink" />
-        <img class="w-14 h-14" :src="difficultyLink" />
+        <img
+          class="w-28 h-8"
+          :src="'/' + ratingToStars(props.dish.rating) + 'stars.png'"
+        />
+        <img
+          class="w-14 h-14"
+          :src="'/diff-' + props.dish.difficulty + '-placeholder.png'"
+        />
       </div>
     </div>
   </div>
