@@ -144,9 +144,7 @@ function onSortingOrderChange() {
             <div class="show-bigger-than-lg-block">
               <div class="filter-separator">IN</div>
               <div class="filter-dropdown">
-                <svg class="expand-arrow" width="12" viewBox="0 0 20 20">
-                  <use href="../assets/expand.svg#arrow"></use>
-                </svg>
+                <img class="w-2 expand-arrow" src="~/assets/expand.png" />
                 <div class="dropdown-selected">
                   {{ toTitleCase(filtering.type) }}
                 </div>
@@ -232,17 +230,13 @@ function onSortingOrderChange() {
               </div>
               <div class="sorting-separator">SORTED BY</div>
               <button class="order-button" @click="onSortingOrderChange">
-                <svg
+                <img
                   :class="{ 'order-arrow': true, down: sortingOrder == -1 }"
-                  viewBox="0 0 20 20"
-                >
-                  <use href="../assets/arrow.svg#arrow"></use>
-                </svg>
+                  src="~/assets/arrow.png"
+                />
               </button>
               <div class="sorting-dropdown">
-                <svg class="expand-arrow" width="12" viewBox="0 0 20 20">
-                  <use href="../assets/expand.svg#arrow"></use>
-                </svg>
+                <img class="expand-arrow w-2" src="~/assets/expand.png" />
                 <div class="dropdown-selected">{{ sorting }}</div>
                 <div class="sorting-dropdown-options">
                   <div
@@ -473,12 +467,14 @@ header {
 
 .order-arrow {
   height: auto;
-  width: 15px;
+  width: 12px;
   transition: transform 0.3s;
+  margin-bottom: 0px;
 }
 
 .order-arrow.down {
-  transform: scaleY(-1) translateY(-4px);
+  margin-bottom: 0px;
+  transform: scaleY(-1);
   transition: transform 0.3s;
 }
 
@@ -487,9 +483,6 @@ header {
 }
 
 .order-button {
-  position: relative;
-  align-items: center;
-  font-size: 11px;
   width: 17px;
   border: none;
   background: none;
